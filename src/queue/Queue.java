@@ -8,6 +8,9 @@ public class Queue<T> implements IQueue<T> {
     private SinglyNode<T> rear;
     private int size;
 
+    /**
+     * Constructs a new instance of the queue with a Dummy header, rear pointing to the Dummy header and size zero.
+     */
     public Queue(){
         this.header = new SinglyNode<T>(null,null);
         this.rear = this.header;

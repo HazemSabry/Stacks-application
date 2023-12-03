@@ -56,7 +56,7 @@ public class Stack<T> implements IStack<T> {
         return size;
     }
     /**
-     * Print the elements of this stack form the top at the right to the bottom at the left in array form.
+     * Print the elements of this stack form the top at the left to the bottom at the right in array form.
      */
     public void printStack(){
         SinglyNode<T> pointer = this.header;
