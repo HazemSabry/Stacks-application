@@ -2,7 +2,7 @@ package src.stack;
 
 import java.util.Scanner;
 
-public class index {
+public class Index {
     public static void main(String[] args){
         try (Scanner scanner = new Scanner(System.in)) {
             Stack<Integer> stack = new Stack<Integer>();

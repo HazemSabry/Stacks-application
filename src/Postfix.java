@@ -20,10 +20,13 @@ public class Postfix implements IPostfix {
         priorityHashMap.put("^",3);
     }
 
+    private boolean isCharacter(String s){
+        return Character.isLetter(s.charAt(0));
+    }
+
     @Override
     public String infixToPostfix(String expression) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'infixToPostfix'");
+        String[] infixTerms = expression.split("");
     }
 
     @Override
