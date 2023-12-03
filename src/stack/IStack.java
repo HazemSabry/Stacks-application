@@ -1,3 +1,4 @@
+package src.stack;
 import java.util.EmptyStackException;
 
 /**

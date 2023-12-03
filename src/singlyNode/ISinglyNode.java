@@ -1,3 +1,4 @@
+package src.singlyNode;
 /**
  * Single Linked List Node with containing data element and next element.
  */

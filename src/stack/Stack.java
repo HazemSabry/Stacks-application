@@ -1,3 +1,6 @@
+package src.stack;
+import src.singlyNode.SinglyNode;
+
 import java.util.EmptyStackException;
 /**
  *  Represents a stack data structure implemented using a singly linked list.
@@ -26,6 +29,7 @@ public class Stack<T> implements IStack<T> {
         if (this.size == 0) throw new EmptyStackException();
         T popElement = this.header.getNext().getData();
         this.header.setNext(this.header.getNext().getNext());
+        this.size--;
         return popElement;
     }
 
@@ -39,6 +43,7 @@ public class Stack<T> implements IStack<T> {
     public void push(T element) {
         SinglyNode<T> newSinglyNode = new SinglyNode<T>(element, this.header.getNext());
         this.header.setNext(newSinglyNode);
+        this.size++;
     }
 
     @Override
@@ -49,6 +54,20 @@ public class Stack<T> implements IStack<T> {
     @Override
     public int size() {
         return size;
+    }
+    /**
+     * Print the elements of this stack form the top at the right to the bottom at the left in array form.
+     */
+    public void printStack(){
+        SinglyNode<T> pointer = this.header;
+
+        System.out.print("[");
+        while (pointer.getNext() != null) {
+            pointer = pointer.getNext();
+            System.out.print(pointer.getData());
+            if (pointer.getNext() != null) System.out.print(", ");
+        }
+        System.out.println("]");
     }
 
 }

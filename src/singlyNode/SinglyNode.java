@@ -1,9 +1,10 @@
+package src.singlyNode;
 /**
  *Represents a single linked list node.
  *
  * @param  <T> The type of elements stored in the node.
  */
-class SinglyNode<T> implements ISinglyNode<T> {
+public class SinglyNode<T> implements ISinglyNode<T> {
     /**
      * The data stored in the node.
      */
