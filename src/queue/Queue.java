@@ -49,5 +49,18 @@ public class Queue<T> implements IQueue<T> {
     public int size() {
         return this.size;
     }
+    /**
+     * @return the String representation of this queue element.
+     */
+    public String toString(){
+        SinglyNode<T> pointer = this.header;
+        String string = "";
 
+        while (pointer.getNext() != null) {
+            pointer = pointer.getNext();
+            string += pointer.getData();
+        }
+
+        return string;
+    }
 }

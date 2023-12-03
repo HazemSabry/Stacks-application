@@ -8,9 +8,10 @@ public interface IPostfix {
     *
     * @param expression infix expression
     * @return postfix expression
+     * @throws Exception
     */
 
-    public String infixToPostfix(String expression);
+    public String infixToPostfix(String expression) throws Exception;
 
 
     /**
