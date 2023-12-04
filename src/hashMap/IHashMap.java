@@ -7,6 +7,7 @@ import java.util.NoSuchElementException;
  *
  * @param <K> The type of key stored in the hashmap.
  * @param <V> The type of value stored in the hashmap.
+ * @author <a href="https://github.com/HazemSabry/Stacks-application" target="_blank">Hazem Sabry</a>
  */
 public interface IHashMap<K, V> {
 

@@ -3,6 +3,7 @@ import java.util.EmptyStackException;
 
 /**
  * An interface representing a stack data structure.
+ * @author <a href="https://github.com/HazemSabry/Stacks-application" target="_blank">Hazem Sabry</a>
  */
 public interface IStack<T> {
 

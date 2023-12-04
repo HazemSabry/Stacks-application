@@ -1,5 +1,7 @@
 package src;
-
+/**
+ * @author <a href="https://github.com/HazemSabry/Stacks-application" target="_blank">Hazem Sabry</a>
+ */
 public interface IPostfix {
     /**
     * Takes a symbolic/numeric infix expression as input and converts it to

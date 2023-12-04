@@ -3,9 +3,17 @@ package src.hashMap;
 import java.util.NoSuchElementException;
 
 import src.singlyNode.SinglyNode;
-
+/**
+ * @author <a href="https://github.com/HazemSabry/Stacks-application" target="_blank">Hazem Sabry</a>
+ */
 public class HashMap<K, V> implements IHashMap<K, V> {
+    /**
+     * Dummy header.
+     */
     private SinglyNode<Entry<K, V>> header;
+    /**
+     * The siz of the HashMap.
+     */
     private int size;
 
     /**

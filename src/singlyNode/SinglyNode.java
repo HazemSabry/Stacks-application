@@ -3,6 +3,7 @@ package src.singlyNode;
  *Represents a single linked list node.
  *
  * @param  <T> The type of elements stored in the node.
+ * @author <a href="https://github.com/HazemSabry/Stacks-application" target="_blank">Hazem Sabry</a>
  */
 public class SinglyNode<T> implements ISinglyNode<T> {
     /**

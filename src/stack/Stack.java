@@ -6,6 +6,7 @@ import java.util.EmptyStackException;
  *  Represents a stack data structure implemented using a singly linked list.
  *
  * @param <T> The type of elements stored in the stack.
+ * @author <a href="https://github.com/HazemSabry/Stacks-application" target="_blank">Hazem Sabry</a>
  */
 public class Stack<T> implements IStack<T> {
     /**

@@ -6,6 +6,7 @@ import java.util.NoSuchElementException;
  * A basic interface representing a queue data structure.
  *
  * @param <T> The type of elements stored in the queue.
+ * @author <a href="https://github.com/HazemSabry/Stacks-application" target="_blank">Hazem Sabry</a>
  */
 public interface IQueue<T> {
     /**

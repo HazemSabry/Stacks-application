@@ -1,6 +1,7 @@
 package src.singlyNode;
 /**
  * Single Linked List Node with containing data element and next element.
+ * @author <a href="https://github.com/HazemSabry/Stacks-application" target="_blank">Hazem Sabry</a>
  */
 public interface ISinglyNode<T> {
     /**

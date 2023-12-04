@@ -1,5 +1,7 @@
 package src.hashMap;
-
+/**
+ * @author <a href="https://github.com/HazemSabry/Stacks-application" target="_blank">Hazem Sabry</a>
+ */
 public class Entry<K, V> implements IEntry<K, V> {
     /**
      * The key of the entry.

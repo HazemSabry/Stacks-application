@@ -2,10 +2,21 @@ package src.queue;
 import java.util.NoSuchElementException;
 
 import src.singlyNode.SinglyNode;
-
+/**
+ * @author <a href="https://github.com/HazemSabry/Stacks-application" target="_blank">Hazem Sabry</a>
+ */
 public class Queue<T> implements IQueue<T> {
+    /**
+     * Dummy heeder.
+     */
     private SinglyNode<T> header;
+    /**
+     * Rear point to the last element in the queue.
+     */
     private SinglyNode<T> rear;
+    /**
+     * The queue size.
+     */
     private int size;
 
     /**
@@ -50,6 +61,7 @@ public class Queue<T> implements IQueue<T> {
         return this.size;
     }
     /**
+     * Represents the queue elements as a single string.
      * @return the String representation of this queue element.
      */
     public String toString(){
